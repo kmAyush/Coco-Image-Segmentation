@@ -6,8 +6,7 @@ This script processes COCO images and annotations to generate multi-class masks 
 
 ## Features
 - Supports 3000 training and 600 validation images.
-- Handles overlapping masks: higher confidence masks overwrite lower ones.
-- Skips corrupt or missing annotations/images with a warning.
+- Creates grayscale and multi-class mask using standard Coco annotation.
 - Output: grayscale `.png` masks with pixel = category ID.
 
 ## Usage
